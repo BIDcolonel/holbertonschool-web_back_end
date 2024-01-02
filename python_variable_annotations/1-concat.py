@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-"""Concatenates two strings and returns the result"""
+"""Basic annotations - concat"""
 
 
 def concat(str1: str, str2: str) -> str:
-    """Returns the result of str1 and str2"""
+    """Returns a concatenated string"""
     return str1 + str2
