@@ -6,8 +6,7 @@ async_comprehension = __import__('1-async_comprehension').async_comprehension
 
 
 async def measure_runtime() -> float:
-    """
-The task at hand involves measuring the runtime of the async_comprehension
+    """The task at hand involves measuring the runtime of the async_comprehension
 function, which generates 10 random numbers using an async generator, in
 parallel four times using asyncio.gather.
 
