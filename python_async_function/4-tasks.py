@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""Let's execute multiple coroutines at the same time with async"""
+"""Returns a list of delays in ascending order of float values of the
+    delays randomly generated from task_wait_random function in async"""
 import asyncio
 from typing import List
 
