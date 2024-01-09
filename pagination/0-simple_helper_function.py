@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-""" 0-Simple helper function"""
+""" Pagination project, helper function module """
 
 
 def index_range(page: int, page_size: int) -> tuple[int, int]:
@@ -12,8 +12,7 @@ def index_range(page: int, page_size: int) -> tuple[int, int]:
 
     Returns:
     - tuple[int, int]: A tuple containing the start and end indices for the
-    given page and page size.
-    """
+    given page and page size."""
     if page <= 0 or page_size <= 0:
         raise ValueError("Page and page_size must be positive integers.")
 
