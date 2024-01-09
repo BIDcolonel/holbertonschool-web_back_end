@@ -18,7 +18,7 @@ def index_range(page: int, page_size: int) -> tuple[int, int]:
     - tuple[int, int]: A tuple containing the start and end indices for the
     given page and page size."""
     if not isinstance(page, int) or not isinstance(page_size, int) or \
-    page <= 0 or page_size <= 0:
+            page <= 0 or page_size <= 0:
         raise ValueError("Page and page_size must be positive integers.")
 
     start_index = (page - 1) * page_size
