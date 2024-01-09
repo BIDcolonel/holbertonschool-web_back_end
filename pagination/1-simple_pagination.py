@@ -34,7 +34,7 @@ class Server:
         self.__dataset = None
 
     def dataset(self) -> List[List]:
-        """Method that stores the dataset"""
+        """Method that stores the dataset in a list instance attribute named"""
         if self.__dataset is None:
             with open(self.DATA_FILE) as f:
                 reader = csv.reader(f)
