@@ -1,6 +1,6 @@
-ES6 Basics
+# ES6 Basics
 
-Learning Objectives
+## Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
 - What ES6 is
@@ -13,8 +13,8 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 - Object creation and their properties in ES6
 - Iterators and for-of loops
 
-Requirements
-General
+## Requirements
+### General
 - All your files will be executed on Ubuntu 18.04 LTS using NodeJS 12.11.x
 - Allowed editors: vi, vim, emacs, Visual Studio Code
 - All your files should end with a new line
